@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Users\KHAS PCI\Desktop\JavaScript_Kamp_Odev\odev2\.metadata\.plugins\org.eclipse.jdt.core
+78507996.index
+8323380.index
+2127461769.index
+62925765.index
+175532014.index
+2596895359.index
+2428509349.index
+3936587504.index
+2104579960.index
+2644819558.index
+3989719785.index
+1865797976.index
+3062492581.index
+3888589875.index
+1959205715.index
+796965919.index
+1485278345.index
+3247365427.index
+2004365730.index
+1940578122.index

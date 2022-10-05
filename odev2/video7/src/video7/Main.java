@@ -1,0 +1,26 @@
+//data types
+package video7;
+
+public class Main {
+
+	public static void main(String[] args) {
+	int number = 12;
+	// number = 13; is not possible
+	number = 1311111111;
+	byte numbyte = 12;
+	numbyte = 127;
+	//short
+	//long
+	//double
+	//float
+	//char
+	char character = 'A';
+	
+	//boolean
+	boolean isItTrue = false;
+	
+	//developers often use the data types integer and double.
+	
+	}
+
+}

@@ -1,0 +1,27 @@
+//multidimensional arrays (matrices)
+package video16;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String[][]  cities = new String[3][3];
+		
+		cities[0][0] = "Istanbul";
+		cities[0][1] = "Bursa";
+		cities[0][2] = "Bilecik";
+		cities[1][1] = "Ankara";
+		cities[1][2] = "Konya";
+		cities[1][0] = "Kayseri";
+		cities[2][1] = "Diyarbakır";
+		cities[2][2] = "Şanlıurfa";
+		cities[2][3] = "Gaziantep";
+		
+		for(String[] district:cities) {
+			for(String[][] city:cities)
+		}
+			
+		
+	}
+
+}

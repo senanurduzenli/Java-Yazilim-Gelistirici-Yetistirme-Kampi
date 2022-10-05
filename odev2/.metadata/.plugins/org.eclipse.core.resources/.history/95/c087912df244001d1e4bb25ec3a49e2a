@@ -1,0 +1,23 @@
+package video23;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int[] numbers = new int[] { 1, 2, 5, 7, 9, 0 };
+		int search = 10;
+		boolean inArray = false;
+
+		for (int i : numbers) {
+			if (i == search) {
+				inArray = true;
+			}
+		}
+
+		if (inArray) {
+			System.out.println("The number " + search + " is in the array.");
+		} else {
+			System.out.println("The number " + search + " is not in the array.");
+		}
+	}
+
+}

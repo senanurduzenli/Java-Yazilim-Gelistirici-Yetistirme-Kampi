@@ -1,0 +1,18 @@
+//switch
+package video10;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char grade = 'A';
+		
+		switch (grade) {
+		case 'A': 
+			System.out.println("Perfect");;
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + grade);
+		}
+		
+	}
+
+}

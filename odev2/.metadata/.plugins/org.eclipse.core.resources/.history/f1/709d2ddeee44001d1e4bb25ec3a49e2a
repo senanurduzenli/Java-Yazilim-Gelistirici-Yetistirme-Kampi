@@ -1,0 +1,51 @@
+//friend numbers
+package video23;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 220-284
+		int num1 = 220;
+		int num2 = 284;
+		int sum1 = 0;
+		int sum2 = 0;
+		boolean areFriends = false;
+		int remainder;
+
+		// num1
+		for (int i = 1; i < num1; i++) {
+			remainder = num1 % i;
+			if (remainder == 0) {
+				sum1 += sum1;
+			}
+		}
+		if (sum1 == num1) {
+			areFriends = true;
+		} else {
+			areFriends = false;
+		}
+
+		// num2
+		for (int i = 1; i < num2; i++) {
+			remainder = num2 % i;
+			if (remainder == 0) {
+				sum2 += sum2;
+			}
+		}
+		if (sum2 == num2) {
+			areFriends = true;
+		} else {
+			areFriends = false;
+		}
+		
+		//output
+		if (areFriends) {
+			System.out.println(num1+" and "+num2+" are friend numbers");
+		}
+		
+		System.out.println("sum1: "+sum1);
+		System.out.println("sum2: "+sum2);
+		
+	}
+
+}

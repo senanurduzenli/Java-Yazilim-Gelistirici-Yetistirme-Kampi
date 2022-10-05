@@ -1,0 +1,25 @@
+package video20;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf = 'A';
+		
+		char[] kalin = ['A','I','O','U'];
+		char[] ince = ['E','İ','Ö','Ü'];
+
+		for (char k : kalin) {
+			if (harf==k) {
+				System.out.println(harf+" harfi kalın bir harf.");
+			}
+		for (char i:ince) {
+			if(harf==i) {
+				System.out.println(harf+" harfi kalın bir harf.");
+			}
+		}
+				
+			
+		}
+	}
+
+}

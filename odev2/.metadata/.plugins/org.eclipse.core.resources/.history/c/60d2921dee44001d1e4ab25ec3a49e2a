@@ -1,0 +1,28 @@
+//mini project 3 - perfect numbers
+package video21;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 6;
+		int remainder;
+		int sum = 0;
+		boolean isPerfect = false;
+		
+		if(number <=0) {
+			System.out.println("Not a valid number.");
+			return;
+		}
+		
+		for (int i = 1; i<=number;i++) {
+			remainder = number%i;
+			if (remainder == 0) {
+				sum += i;
+			}
+		}
+		
+		
+
+	}
+
+}

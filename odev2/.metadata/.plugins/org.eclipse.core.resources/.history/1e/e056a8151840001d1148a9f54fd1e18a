@@ -1,0 +1,26 @@
+//switch
+package video10;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char grade = 'A';
+
+		switch (grade) {
+		case 'A':
+			System.out.println("Perfect");
+		case 'B':
+			System.out.println("Very Good");
+		case 'C':
+			System.out.println("Good");
+		case 'D':
+			System.out.println("Not Bad");
+		case 'F':
+			System.out.println("Failed");
+		default:
+			System.out.println("Invalid Grade");
+		}
+
+	}
+
+}

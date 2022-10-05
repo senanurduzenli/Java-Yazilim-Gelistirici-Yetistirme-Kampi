@@ -1,0 +1,16 @@
+// while loop
+package video12;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		while(i<10) {
+			System.out.println(i);
+		}
+		
+		System.out.println("Dongu bitti");
+
+	}
+
+}

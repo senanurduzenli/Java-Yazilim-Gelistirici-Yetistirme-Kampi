@@ -1,0 +1,29 @@
+//mini Project 1 - prime numbers
+package video19;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int number = 7;
+		boolean prime = true;
+		int remainder;
+		
+		for (int i = 2; i<number ; i++) {
+			remainder = number%i;
+			if (remainder != 0) {
+				prime = false;
+				break;
+			}
+		}
+		
+		if(prime == true) {
+			System.out.println( number + " is a prime number");
+		}
+		else {
+			System.out.println(number+ " is not a prime number");
+		}
+		
+	}
+
+}
